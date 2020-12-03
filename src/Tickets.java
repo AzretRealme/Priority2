@@ -25,4 +25,6 @@ public class Tickets {
     public void setVIP(boolean VIP) {
         isVIP = VIP;
     }
+
+
 }

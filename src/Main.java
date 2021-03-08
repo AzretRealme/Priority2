@@ -5,12 +5,12 @@ import java.util.PriorityQueue;
 
 public class Main {
     public static void main(String[] args){
-        Comparator<Integer> comparator = new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2.compareTo(o1);
-            }
-        };
+     //        Comparator<Integer> comparator = new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer o1, Integer o2) {
+//                return o2.compareTo(o1);
+//            }
+//        };
         PriorityQueue<Tickets> priorityQueue = new PriorityQueue<>(new CustomComparator());
         priorityQueue.add(new Tickets(200,false));
         priorityQueue.add(new Tickets(100,false));
